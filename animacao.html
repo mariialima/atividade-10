@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animate</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+    
     <style>
         .meu_texto
         {
-            animation: fadeInLeft 2s;
+            animation: backInLeft 2s;
             width: 100%;
             display: flex;
             justify-content: center;
+            font-size: 60px;
+            color: rgb(111, 126, 255);
+            background-color: rgb(0, 0, 0);
+        }
+        .botao
+        {
+            animation: shakeX 2s;
+            width: 200px;
+            height: 80px;
             font-size: 50px;
-            color: rgb(199, 19, 184);
-            background-color: black;
+            background-color: rgb(65, 65, 65);
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+            box-shadow: 2px 2px rgb(111, 126, 255);
         }
     </style>
-
 </head>
 <body>
-     <div class="meu_texto">
+    <div class="meu_texto">
         EXEMPLO USANDO O SITE ANIMATE.CSS
+    </div>
+    <div class="botao">
+        BOTÃO
     </div>
 </body>
 </html>
